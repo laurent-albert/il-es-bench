@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git clone --depth 1 --branch wip  https://github.com/axelor/abs-webapp.git
+git clone --depth 1 --branch wip  https://github.com/axelor/axelor-business-suite.git ./abs-webapp/modules/abs
+git clone --depth 1 --branch master  https://github.com/laurent-albert/il-education-suite.git ./abs-webapp/modules/iles
